@@ -13,6 +13,7 @@ import { UnreadNotification } from '@src/app/use-cases/unread-notification';
 
 @Controller('notifications')
 export class NotificationsController {
+  // injeção de dependências
   constructor(
     private sendNotification: SendNotification,
     private cancelNotification: CancelNotification,
