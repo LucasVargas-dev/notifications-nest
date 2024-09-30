@@ -1,4 +1,4 @@
-// Classe para estabelecer uma forma padrão de envio desta entidade para o front-end (HTTP)
+// Classe para estabelecer uma forma padrão de envio desta entidade para o front-end (HTTP). O que fica repetitivo. O mapper do front-end.
 
 import { Notification } from '@app/entities/notification/notification';
 
